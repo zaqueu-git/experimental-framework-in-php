@@ -1,0 +1,17 @@
+{
+    "name": "vendor/experimental-framework-in-php",
+    "description": "Estrutura Experimental em PHP",
+    "autoload": {
+        "psr-4": {
+            "zkFramework\\": "zkFramework/",
+            "App\\": "app/",
+            "Api\\": "api/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zaqueu-git",
+            "email": "zaqueu.alves01@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "System": {
+        "Version": "8.2.13",
+        "SO": "WINNT",
+        "Runtime": "0.0065710544586182 seconds",
+        "MemoryUsage": 377528,
+        "TimeZone": "America/Sao_Paulo"
+    },
+    "Ini": {
+        "log_errors": "0",
+        "error_log": "",
+        "display_errors": "1",
+        "display_startup_errors": "1",
+        "error_reporting": "32767",
+        "memory_limit": "128M",
+        "max_execution_time": "120",
+        "upload_max_filesize": "2M",
+        "post_max_size": "8M"
+    },
+    "Track": [
+        {
+            "file": "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Debugger.php",
+            "line": 91,
+            "function": "load",
+            "class": "zkFramework\\Debugger",
+            "type": "::",
+            "args": []
+        },
+        {
+            "file": "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Facade.php",
+            "line": 44,
+            "function": "operations",
+            "class": "zkFramework\\Debugger",
+            "type": "::",
+            "args": []
+        },
+        {
+            "file": "C:\\wamp64\\www\\experimental-framework-in-php\\public\\index.php",
+            "line": 8,
+            "function": "run",
+            "class": "zkFramework\\Facade",
+            "object": {},
+            "type": "->",
+            "args": []
+        }
+    ],
+    "Include": [
+        "C:\\wamp64\\www\\experimental-framework-in-php\\public\\index.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\vendor\\autoload.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\vendor\\composer\\autoload_real.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\vendor\\composer\\ClassLoader.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\vendor\\composer\\autoload_static.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Facade.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Log.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Env.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Ini.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Header.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\TimeZone.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Session.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Request.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Debugger.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\routes\\api.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Router.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\routes\\app.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\app\\controllers\\DemoHomeController.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\zkFramework\\Controller.php",
+        "C:\\wamp64\\www\\experimental-framework-in-php\\app\\views\\demo_home.php"
+    ],
+    "Env": {
+        "DEBUG": true,
+        "PATH_LOGS": "",
+        "TIMEZONE": "",
+        "DBH_SERVER": "localhost",
+        "DBH_NAME": "examples",
+        "DBH_USER": "root",
+        "DBH_PASSWORD": "",
+        "DBP_SERVER": "",
+        "DBP_NAME": "",
+        "DBP_USER": "",
+        "DBP_PASSWORD": ""
+    },
+    "Header": [
+        "X-Powered-By: PHP/8.2.13",
+        "X-Content-Type-Options: nosniff",
+        "X-Frame-Options: SAMEORIGIN",
+        "X-XSS-Protection: 1; mode=block",
+        "Referrer-Policy: no-referrer",
+        "Permissions-Policy: geolocation=(self), microphone=()",
+        "Expires: Thu, 19 Nov 1981 08:52:00 GMT",
+        "Cache-Control: no-store, no-cache, must-revalidate",
+        "Pragma: no-cache",
+        "Content-Type: text/html; charset=UTF-8"
+    ],
+    "Session": {
+        "csrf": 1726702451,
+        "x": "8c6e7ee78272b5e44009d4335e32a2083a614c4d338e56a28052b7ad7abdf8a6",
+        "csrf_token": "802c8ea9321040acb03480435a71b9a9f6468a79f9e8f1156ae4e4129621ef4c"
+    },
+    "Request": {
+        "get": [],
+        "post": [],
+        "json": []
+    },
+    "Route": {
+        "group": "others",
+        "method": "GET",
+        "url": "/",
+        "controller": "App\\Controllers\\DemoHomeController",
+        "action": "index",
+        "parameters": []
+    }
+}
